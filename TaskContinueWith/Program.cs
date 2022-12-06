@@ -26,6 +26,8 @@ namespace TaskContinueWith
             var myTask = new HttpClient().GetStringAsync("https://www.google.com");
 
             Console.WriteLine("Arada yapılacak işler");
+
+            var data = await myTask;
             
             Console.WriteLine("Data Result Length : " + myTask.Result.Length);
             

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeginningToAsyncProgramming", "BeginningToAsyncProgramming\BeginningToAsyncProgramming.csproj", "{763D1F11-6E4F-47C4-BE3D-526CD8E93CDC}"
 EndProject
@@ -17,21 +17,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWhenAny", "TaskWhenAny\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWaitAll", "TaskWaitAll\TaskWaitAll.csproj", "{2E943BA6-75F6-45D2-812C-281E594DF75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWaitAny", "TaskWaitAny\TaskWaitAny.csproj", "{21C18C44-57D5-49E0-B165-3C7450D94B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWaitAny", "TaskWaitAny\TaskWaitAny.csproj", "{21C18C44-57D5-49E0-B165-3C7450D94B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDelay", "TaskDelay\TaskDelay.csproj", "{C37A2EDB-7924-4A55-BC32-2C48BAB48B95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDelay", "TaskDelay\TaskDelay.csproj", "{C37A2EDB-7924-4A55-BC32-2C48BAB48B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRun", "TaskRun\TaskRun.csproj", "{5BEC0C95-361A-4BA0-A777-458F423911D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskRun", "TaskRun\TaskRun.csproj", "{5BEC0C95-361A-4BA0-A777-458F423911D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskStartNew", "TaskStartNew\TaskStartNew.csproj", "{0A83865D-1067-4367-846F-7E0B4812E576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskStartNew", "TaskStartNew\TaskStartNew.csproj", "{0A83865D-1067-4367-846F-7E0B4812E576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromResult", "TaskFromResult\TaskFromResult.csproj", "{23C7FA0F-9828-4D3B-9CF9-44E31E73E218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskFromResult", "TaskFromResult\TaskFromResult.csproj", "{23C7FA0F-9828-4D3B-9CF9-44E31E73E218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationToken", "CancellationToken\CancellationToken.csproj", "{E2F26D73-3381-48D5-8036-423E9A67447A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationToken", "CancellationToken\CancellationToken.csproj", "{E2F26D73-3381-48D5-8036-423E9A67447A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenWebAPI", "CancellationTokenWebAPI\CancellationTokenWebAPI.csproj", "{323EBBEB-A3B5-4121-907B-80CA5FCC6398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenWebAPI", "CancellationTokenWebAPI\CancellationTokenWebAPI.csproj", "{323EBBEB-A3B5-4121-907B-80CA5FCC6398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenV2", "CancellationTokenV2\CancellationTokenV2.csproj", "{8BD3F5E2-1BEE-4788-AB29-843F4B1B2E5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenV2", "CancellationTokenV2\CancellationTokenV2.csproj", "{8BD3F5E2-1BEE-4788-AB29-843F4B1B2E5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskInstance", "TaskInstance\TaskInstance.csproj", "{4BB50AE3-67EE-40FA-A7EE-8BC7D37103D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskInstanceForm", "TaskInstanceForm\TaskInstanceForm.csproj", "{3679F58E-C66D-483F-B769-68BA89D61B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTask", "ValueTask\ValueTask.csproj", "{AB6D94D6-7C42-4A33-A7E9-8BC3724A70E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForEach", "ParallelForEach\ParallelForEach.csproj", "{47494ACF-86EE-4999-9842-BE06CB90647A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,22 @@ Global
 		{8BD3F5E2-1BEE-4788-AB29-843F4B1B2E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD3F5E2-1BEE-4788-AB29-843F4B1B2E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD3F5E2-1BEE-4788-AB29-843F4B1B2E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB50AE3-67EE-40FA-A7EE-8BC7D37103D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB50AE3-67EE-40FA-A7EE-8BC7D37103D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB50AE3-67EE-40FA-A7EE-8BC7D37103D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB50AE3-67EE-40FA-A7EE-8BC7D37103D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3679F58E-C66D-483F-B769-68BA89D61B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3679F58E-C66D-483F-B769-68BA89D61B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3679F58E-C66D-483F-B769-68BA89D61B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3679F58E-C66D-483F-B769-68BA89D61B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6D94D6-7C42-4A33-A7E9-8BC3724A70E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6D94D6-7C42-4A33-A7E9-8BC3724A70E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6D94D6-7C42-4A33-A7E9-8BC3724A70E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6D94D6-7C42-4A33-A7E9-8BC3724A70E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47494ACF-86EE-4999-9842-BE06CB90647A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47494ACF-86EE-4999-9842-BE06CB90647A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47494ACF-86EE-4999-9842-BE06CB90647A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47494ACF-86EE-4999-9842-BE06CB90647A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

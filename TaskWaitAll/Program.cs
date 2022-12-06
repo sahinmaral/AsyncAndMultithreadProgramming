@@ -16,7 +16,7 @@ namespace TaskWaitAll
     class Program
     {
 
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
 
             Console.WriteLine($"Main Thread : {Thread.CurrentThread.ManagedThreadId}");
@@ -36,7 +36,7 @@ namespace TaskWaitAll
 
             Console.WriteLine("WaitAll Start");
 
-            bool taskDoneInTime = Task.WaitAll(taskList.ToArray(),1);
+            bool taskDoneInTime = Task.WaitAll(taskList.ToArray(), 1);
 
             Console.WriteLine("Task Done In Time : " + taskDoneInTime);
 
@@ -55,6 +55,8 @@ namespace TaskWaitAll
             };
 
             Console.WriteLine($"GetContentAsync Thread No : {Thread.CurrentThread.ManagedThreadId}");
+
+            
 
             return content;
         }

@@ -26,12 +26,6 @@ namespace TaskStartNew
         }
     }
 
-    public class UrlContent
-    {
-        public string Url { get; set; }
-        public int Length { get; set; }
-    }
-
     public class Status
     {
         public int ThreadId { get; set; }
