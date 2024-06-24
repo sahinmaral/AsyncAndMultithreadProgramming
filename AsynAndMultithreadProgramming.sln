@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelFor", "ParallelFor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForCancellationToken", "ParallelForCancellationToken\ParallelForCancellationToken.csproj", "{C9CFBA6C-5B50-450B-84B0-FEB1584941C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsParallel", "AsParallel\AsParallel.csproj", "{48B76437-9BFA-47D5-942A-23B684C94935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQExample", "PLINQExample\PLINQExample.csproj", "{42182238-241E-4FE4-9264-F84BADB8FA5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{C9CFBA6C-5B50-450B-84B0-FEB1584941C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9CFBA6C-5B50-450B-84B0-FEB1584941C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9CFBA6C-5B50-450B-84B0-FEB1584941C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B76437-9BFA-47D5-942A-23B684C94935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B76437-9BFA-47D5-942A-23B684C94935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B76437-9BFA-47D5-942A-23B684C94935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B76437-9BFA-47D5-942A-23B684C94935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42182238-241E-4FE4-9264-F84BADB8FA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42182238-241E-4FE4-9264-F84BADB8FA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42182238-241E-4FE4-9264-F84BADB8FA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42182238-241E-4FE4-9264-F84BADB8FA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
