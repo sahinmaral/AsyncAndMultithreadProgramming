@@ -5,7 +5,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        string picturesPath = "C:\\Users\\sahin\\Desktop\\Files\\GithubRepositories\\AsyncAndMultithreadProgramming\\ParallelForEach\\images";
+        string picturesPath = $"{Path.Combine(Directory.GetCurrentDirectory(),"images")}";
 
         var files = Directory.GetFiles(picturesPath);
 
@@ -26,6 +26,11 @@ public class Program
     /// <param name="picturesPath"></param>
     public static void NormalFor(string[] files, string picturesPath)
     {
+        var thumbnailDirectory = $"{Path.Combine(Directory.GetCurrentDirectory(), "images/thumbnail_normalFor")}";
+        var isThumbnailDirectoryExists = Directory.Exists(thumbnailDirectory);
+        if (!isThumbnailDirectoryExists)
+            Directory.CreateDirectory(thumbnailDirectory);
+
         Stopwatch stopwatch= new Stopwatch();
         stopwatch.Start();
 
@@ -36,7 +41,7 @@ public class Program
             Image img = new Bitmap(file);
             var thumbnail = img.GetThumbnailImage(50, 50, () => false, IntPtr.Zero);
 
-            thumbnail.Save(Path.Combine(picturesPath, "thumbnail", Path.GetFileName(file)));
+            thumbnail.Save(Path.Combine(picturesPath, "thumbnail_normalFor", Path.GetFileName(file)));
         }
 
         stopwatch.Stop();
@@ -50,6 +55,10 @@ public class Program
     /// <param name="picturesPath"></param>
     public static void ParallelFor(string[] files,string picturesPath)
     {
+        var thumbnailDirectory = $"{Path.Combine(Directory.GetCurrentDirectory(), "images/thumbnail_parallelFor")}";
+        var isThumbnailDirectoryExists = Directory.Exists(thumbnailDirectory);
+        if (!isThumbnailDirectoryExists)
+            Directory.CreateDirectory(thumbnailDirectory);
 
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
@@ -61,7 +70,7 @@ public class Program
             Image img = new Bitmap(file);
             var thumbnail = img.GetThumbnailImage(50, 50, () => false, IntPtr.Zero);
 
-            thumbnail.Save(Path.Combine(picturesPath, "thumbnail", Path.GetFileName(file)));
+            thumbnail.Save(Path.Combine(picturesPath, "thumbnail_parallelFor", Path.GetFileName(file)));
 
         });
 
